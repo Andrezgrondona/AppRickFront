@@ -438,14 +438,16 @@ const CharacterList = () => {
         open={isMobile && !!selectedCharacter}
         onClose={() => setSelectedCharacter(null)}
       >
-        <div className="fixed inset-0 flex items-center justify-center bg-white h-screen w-screen">
+        <div className="fixed inset-0 flex items-start justify-center bg-white h-screen w-screen pt-0">
+
           {selectedCharacter && (
             <div className="w-full max-w-md p-6">
               <button
                 onClick={() => setSelectedCharacter(null)}
                 className="mb-4"
               >
-                <IoArrowBack size={24} className="text-[#8054C7]" />
+                <IoArrowBack size={24} style={{ color: "#8054C7" }} />
+
               </button>
 
               <div className="flex flex-col items-start">
