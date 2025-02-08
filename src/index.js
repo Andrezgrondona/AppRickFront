@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import client from './ApolloClient';
 import { ApolloProvider } from '@apollo/client';
-import './index.css'; // Importar Tailwind CSS
+import './index.css'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
