@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front end App Rick y Morty
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+Esta es una aplicación frontend basada en React, mostrando personajes del universo de Rick y Morty. Proporciona características como listado de personajes, ordenamiento, vistas detalladas, marcado como favorito y comentarios.
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Tecnologías Utilizadas
 
-### `npm test`
+-   **React 18**: 
+-   **React Router DOM**
+-   **GraphQL**: 
+-   **@apollo/client**
+-   **Tailwind CSS**
+-   **Axios**: 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerrequisitos
 
-### `npm run build`
+Antes de comenzar, asegúrate de tener lo siguiente instalado:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   [Node.js](https://nodejs.org/es/) (se recomienda la versión 16 o superior)
+-   [npm](https://www.npmjs.com/) (Administrador de paquetes de Node)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Instrucciones de Configuración
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Clona el Repositorio**:
 
-### `npm run eject`
+    ```
+    git clone https://github.com/Andrezgrondona/AppRickFront.git
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2.  **Instala las Dependencias**:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4.  **Inicia la Aplicación**:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    ```
+    npm start
+    ```
 
-## Learn More
+    Esto iniciará el servidor de desarrollo, normalmente en `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Para interactuar con AppRickBack (Back-end) se debe clonar el siguiente repositorio:
+Git:
+- https://github.com/Andrezgrondona/AppRickBack
+Repositorio:
+- https://github.com/Andrezgrondona/AppRickBack.git
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
